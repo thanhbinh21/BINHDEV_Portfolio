@@ -57,11 +57,11 @@ const SkillsText = () => {
               y: [0, -15, 0],
               rotate: [0, 10, -10, 0],
             }}
-            transition={{
-              duration: 3,
-              repeat: Infinity,
-              delay: i * 0.5,
-            }}
+            // transition={{
+            //   duration: 3,
+            //   repeat: Infinity,
+            //   delay: i * 0.5,
+            // }}
             viewport={{ once: false }}
           >
             {emoji}

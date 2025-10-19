@@ -47,11 +47,11 @@ const ProjectsText = () => {
             animate={{
               y: [0, -10, 0],
             }}
-            transition={{
-              duration: 2,
-              repeat: Infinity,
-              delay: i * 0.3,
-            }}
+            // transition={{
+            //   duration: 2,
+            //   repeat: Infinity,
+            //   delay: i * 0.3,
+            // }}
           />
         ))}
       </div>
